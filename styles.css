@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+}
+
+header {
+    display: flex;
+    padding: 8px;
+    justify-content: end;
+    border-bottom: 1px rgb(160, 150, 150) solid;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    margin-right: auto;
+    text-decoration: none;
+    align-self: center;
+    margin-left: 15px;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.nav-bar {
+    margin-right: 20px;
+    align-self: center;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(128, 123, 123);
+    font-size: 15px;
+}
+
+.nav-bar a:hover {
+    color: rgb(27, 25, 25);
+}
+
+.reservar {
+    height: 50px;
+    width: 150px;
+    align-self: center;
+    margin-left: 15px;
+    background-color: #67bcf5;
+    color: #fefeff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reservar:hover {
+    background-color: #72a1c0;
+}
+
+#menu-dropdown {
+    align-self: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+}
+
+#user {
+    align-self: center;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    --mask:
+    radial-gradient(96.15px at 50% calc(100% - 129px),#000 99%,#0000 101%) calc(50% - 86px) 0/172px 100%,
+    radial-gradient(96.15px at 50% calc(100% + 86px),#0000 99%,#000 101%) 50% calc(100% - 43px)/172px 100% repeat-x;
+    -webkit-mask: var(--mask);
+          mask: var(--mask);}
+
+.info {
+    flex: 1;
+    padding-top: 120px;
+    padding-left: 50px;
+    padding-right: 30px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#puente-griego {
+    position: relative;
+    width: 70%;
+    height: 650px;
+}
+
+#degradado-izquierda {
+    position: absolute;
+    top: 0;
+    left: 29%;
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    z-index: 1000;
+}
+
+h3 {
+    line-height: 50px;
+}
+
+.enfasis {
+    font-size: 39px;
+    color: rgb(14, 150, 192);
+    text-shadow: 1px 1px 2px rgb(56, 59, 194);
+    font-weight: 900px;
+}
+
+.subtitle {
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+    line-height: 27px;
+    margin-top: 15px;
+}
+
+#reservar2 {
+    height: 70px;
+    width: 270px;
+    justify-self: center;
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: 800;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(40, 41, 48);
+    border-radius: 15px;
+}
+
+.extra-info {
+    display: flex;
+    height: 350px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder {
+    height: 300px;
+    width: 400px;
+    margin: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.subtitle2 {
+    margin-top: 5px;
+    line-height: 24px;
+    text-align: center;
+    justify-self: center;
+    color: rgb(49, 49, 49);
+    font-size: 16px;
+}
+
+.find-us {
+    text-align: center;
+    height: 700px;
+    padding: 20px;
+    background: rgb(217,217,217);
+    background: linear-gradient(0deg, rgb(192, 190, 190) 0%, rgba(252,252,252,1) 100%);
+}
+
+h4 {
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    font-stretch: expanded;
+}
+
+.maps {
+    display: flex;
+}
+
+.half {
+    flex: 1;
+    border: 1px black solid;
+    border-radius: 20px;
+    margin: 30px;
+    height: 570px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+h6 {
+    font-size: 40px;
+    padding-bottom: 8px;
+    color: rgb(48, 44, 114);
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+}
+
+.mapa {
+    border-radius: 30px;
+    padding-bottom: 5px;
+}
+
+footer {
+    background: linear-gradient(to bottom, rgba(36, 35, 35, 0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(26, 25, 25, 0.4) 0%, rgba(0,0,0,0.40) 120%) #696868;
+    background-blend-mode: multiply,multiply;
+    height: 200px;
+    margin-top: -40px;
+    display: flex;
+}
+
+.footer-div {
+    background-color: #ce4c0f;
+    height: 110px;
+    width: 150px;
+    flex: 1;
+    margin: 50px;
+}
